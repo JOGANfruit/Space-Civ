@@ -1,0 +1,86 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"techs":[
+				{
+					"name": "Distant Past",
+					"row": 5,
+					"uniques": ["Starting tech"]
+			  }
+		 ]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 18,
+		"buildingCost": 18,
+		"techs": [
+			{
+				"name": "Writing",
+				"row": 2,
+				"prerequisites": ["Distant Past"]
+			},
+			{
+				"name": "Economy",
+				"row": 5,
+				"prerequisites": ["Distant Past"]
+			},
+			{
+				"name": "Mining",
+				"row": 8,
+				"prerequisites": ["Distant Past"]
+			}
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 30,
+		"buildingCost": 24,
+		"techs": [
+			{
+				"name": "Education",
+				"row": 1,
+				"prerequisites": ["Writing"],
+			},
+			{
+			"name": "Philosophy",
+			"row": 2,
+			"prerequisites": ["Writing"],
+	  	},
+			{
+				"name": "Theology",
+				"row": 3,
+				"prerequisites": ["Writing"]
+			},
+			{
+				"name": "Agriculture",
+				"row": 4,
+				"prerequisites": ["Economy"]
+			},
+			{
+				"name": "Industrialization",
+				"row": 5,
+				"prerequisites": ["Economy"]
+			},
+			{
+				"name": "Trade",
+				"row": 6,
+				"prerequisites": ["Economy"]
+			},
+			{
+				"name": "Bronze Working",
+				"row": 7,
+				"prerequisites": ["Mining"]
+			},
+			{
+				"name": "Iron Working",
+				"row": 9,
+				"prerequisites": ["Mining"]
+			}
+		]
+	},
+]

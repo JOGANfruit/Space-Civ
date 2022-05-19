@@ -1,0 +1,53 @@
+[
+  // Unbuildable improvements
+ {
+  "name": "Barbarian encampment",
+  "terrainsCanBeBuiltOn": ["Land"],
+  "uniques": ["Unpillagable", "Unbuildable"],
+      "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+ },
+ {
+   "name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"]
+ },
+ {
+   "name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"]
+ },
+ {
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Writing",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Economy]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Economy]>"],
+		"shortcutKey": "F"
+ },
+ {
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Writing",
+		"uniques": ["[+1 Food] <after discovering [Economy]>", "Can only be built to improve a resource"],
+		"shortcutKey": "P"
+	},
+  {
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Writing",
+		"uniques": ["[+1 Food] <after discovering [Economy]>", "Can only be built to improve a resource"],
+		"shortcutKey": "P"
+	},
+  {
+    "name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Ocean"],
+		"food": 1,
+		"techRequired": "Writing",
+		"uniques": ["[+1 Gold] <after discovering [Economy]>", "Can only be built to improve a resource"],
+		"shortcutKey": "F"
+  }
+]

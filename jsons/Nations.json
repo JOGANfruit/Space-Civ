@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Spectator",
+		"outerColor": [255,255,255]
+  },
+  {
+ 		"name": "House Atreides",
+ 		"leaderName": "Leto Atreides",
+ 		"adjective": ["Atreides"],
+ 		"startBias": ["Grassland"],
+ 		"preferredVictoryType":"Domination",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [255, 255, 255],
+ 		"innerColor": [165,0,0],
+ 		"uniqueName": "Hellenic League",
+ 		"uniques": ["Cannot build [Settler] units"],
+ 		"cities": ["Arrakeen"]
+ 	},
+  {
+    "name": "House Harkonnen",
+ 		"leaderName": "Vladimir Harkonnen",
+ 		"adjective": ["Harkonnen"],
+ 		"startBias": ["Desert"],
+ 		"preferredVictoryType":"Domination",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [4,0,88],
+ 		"innerColor": [213,107,0],
+ 		"uniqueName": "Hellenic League",
+ 		"uniques": ["Cannot build [Settler] units"],
+ 		"cities": ["Harkonnen's Court"]
+  },
+  {
+    "name": "House Corrino",
+ 		"leaderName": "Shaddam IV",
+ 		"adjective": ["Corrino"],
+ 		"startBias": ["Plains"],
+ 		"preferredVictoryType":"Domination",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [0, 0, 0],
+ 		"innerColor": [240,202,0],
+ 		"uniqueName": "Hellenic League",
+ 		"uniques": ["Cannot build [Settler] units"],
+ 		"cities": ["Corrino's Court"]
+  },
+  {
+    "name": "Barbarians",
+    "outerColor": [0,0,0],
+    "innerColor": [182,0,0],
+    "uniques": ["Can only heal by pillaging"]
+  }
+
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Drone",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 30,
+		"cost": 150,
+    "requiredTech": "Distant Past",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+  },
+  {
+    "name": "Settler",
+  	"unitType": "Civilian",
+  	"movement": 2,
+  	"cost": 106,
+  	"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+  			"Requires at least [2] population"],
+  },
+  {
+  "name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles"],
+		"cost": 70
+  },
+]

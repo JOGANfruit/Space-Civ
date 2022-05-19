@@ -1,0 +1,408 @@
+[
+  //Industrialization - Завершено
+  {
+    "name": "Industry",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 50,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 30,
+            "Scientific": 30
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]",
+            "[+2 Production] [in all cities]",
+            "Only available <before adopting [Ecology]>"
+        ],
+        "policies": [
+            {
+                "name": "Urbanism",//Урбанизм
+                "uniques": [
+                    "[+10]% Production when constructing [All] buildings [in all cities]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Hard Work",//Усердный Труд
+                "uniques": [
+                    "[-25]% tile improvement construction time"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Intensive Growth",//Интенсивный Рост
+                "uniques": [
+                    "[+2 Production] from every [Strategic resource]",
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Mercenary Army",//Наёмная Армия
+                "uniques": [
+                    "[Gold] cost of purchasing [All] units [-33]%",
+                  "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                ],
+                "requires": ["Hard Work"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Imperialism",//Империализм
+                "uniques": [
+                    "[+25]% Production towards any buildings that already exist in the Capital"
+                ],
+                "requires": ["Intensive Growth"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Industry Complete",
+                "uniques": [
+                    "[Gold] cost of purchasing items in cities [-50]%"
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                ]
+            }
+        ]
+    },
+    //Ecology - Завершено
+    {
+      "name": "Ecology",
+          "era": "Ancient era",
+          "priorities": {
+              "Neutral": 50,
+              "Cultural": 30,
+              "Diplomatic": 30,
+              "Domination": 0,
+              "Scientific": 0
+          },
+          "uniques": [
+              "[+1 Culture] [in capital]",
+              "[+10]% growth [in capital]",
+              "Only available <before adopting [Industry]>"
+          ],
+          "policies": [
+              {
+                  "name": "Nature Protection",//Охрана Природы
+                  "uniques": [
+                      "[+1 Food] from every [Pasture]",
+                      "[+1 Food] from every [Plantation]"
+                      "[+1 Food] from every [Fishing Boats]"
+                  ],
+                  "row": 1,
+                  "column": 2
+              },
+              {
+                  "name": "Fertility",//Плодородие
+                  "uniques": [
+                      "[+2 Food] from every [Luxury resource]"
+                  ],
+                  "row": 1,
+                  "column": 4
+              },
+              {
+                  "name": "Proper Diet",//Правильное Питание
+                  "uniques": [
+                      "[-50]% Food consumption by specialists [in all cities]",
+                  ],
+                  "row": 2,
+                  "column": 2
+              },
+              {
+                  "name": "Forest Reserve",//Заповедный Лес
+                  "uniques": [
+                      "[+3 Culture] from every [Forest]",
+                      "[+3 Culture] from every [Jungle]"
+                  ],
+                  "requires": ["Nature Protection"],
+                  "row": 2,
+                  "column": 4
+              },
+              {
+                  "name": "Clean Energy",//Чистая Энергетика
+                  "uniques": [
+                      "[+1 Production, +1 Happiness] per [3] population [in capital]"
+                  ],
+                  "requires": ["Fertility"],
+                  "row": 3,
+                  "column": 4
+              },
+              {
+                  "name": "Ecology Complete",
+                  "uniques": [
+                      "[+25]% growth [in all cities]",
+                  ]
+              }
+          ]
+      },
+      //Traditionalism - Завершено
+      {
+        "name": "Traditionalism",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 50,
+            "Diplomatic": 0,
+            "Domination": 30,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]"
+            "[+2 Happiness] [in all cities]",
+            "[+50]% Golden Age length"
+            "Only available <before adopting [Rationalism]>"
+        ],
+        "policies": [
+            {
+                "name": "Organized Religion",//Организованная Религия
+                "uniques": [
+                    "[-50]% Unhappiness from [Specialists] [in all cities]",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Gift of God",//Дар Божий
+                "uniques": ["[+2] Happiness from each type of luxury resource]",
+              "Empire enters golden age"],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Theocracy",//Теократия
+                "uniques": ["[100]% of excess happiness converted to [Culture]"],
+                "requires": ["Organized Religion"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Sacred Duty",//Священный Долг
+                "uniques": [
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+                    "Empire enters golden age"
+                ],
+                "requires": ["Theocracy"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Dogmatism",//Догматизм
+                "uniques": ["[-10]% Culture cost of adopting new Policies"],
+                "requires": ["Gift of God", "Sacred Duty"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Traditionalism Complete",
+                "uniques": [
+                    "[Faith] cost of purchasing items in cities [-30]% ",
+                    "[+3 Gold, +3 Culture] from every [Holy site]"
+                ]
+            }
+        ]
+    },
+    //Rationalism - Завершено
+    {
+        "name": "Rationalism",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 0,
+            "Diplomatic": 30,
+            "Domination": 0,
+            "Scientific": 50
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]"
+            "[+2 Science] [in all cities]",
+            "[+3 Science] [in capital]"
+            "Only available <before adopting [Traditionalism]>"
+        ],
+        "policies": [
+            {
+                "name": "Secularism",//Секуляризм
+                "uniques": [
+                    "[+2 Science] from every specialist [in all cities]"
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Humanism",//Гуманизм
+                "uniques": [
+                    "[+1 Science, +1 Happiness] per [2] population [in capital]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Natural Science",//Естественная Наука
+                "uniques": [
+                    "[+1 Science] from every [Strategic resource]",
+                    "[+1 Science] from every [Luxury resource]"
+                ],
+                "requires": ["Secularism"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Sovereignty",//Суверенитет
+                "uniques": ["[+15]% [Science] <while the empire is happy>"],
+                "requires": ["Humanism"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Scientific Revolution",//Научная Революция
+                "uniques": ["Science gained from research agreements [+50]%"],
+                "requires": ["Natural Science"],
+                "row": 3,
+                "column": 1
+            },
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "[2] Free Technologies",
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                ]
+            }
+        ]
+    },
+//Militarism - Завершено
+    {
+        "name": "Militarism", //Милитаризм
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 30,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 50,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+1 Culture] [in capital]"
+            "[+50]% XP gained from combat <for [Military] units>",
+            "Only available <before adopting [Pacifism]>"
+        ],
+        "policies": [
+            {
+                "name": "Patriotism",//Патриотизм
+                "uniques": ["[-15]% maintenance costs <for [All] units>"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Police State",//Полицейское Государство
+                "uniques": [
+                  "[+3 Happiness] from every [Courthouse]",
+                    "[+100]% Production when constructing [Courthouse] buildings [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Regular Army",//Регулярная Армия
+                "uniques": [
+                    "[10] units cost no maintenance",
+                ],
+                "requires": ["Patriotism"],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Military Training",//Военная подготовка
+                "uniques": [
+                    "[-33]% Gold cost of upgrading <for [Military] units>",
+                ],
+                "requires": ["Police State"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Total War",//Тотальная Война
+                "uniques": [
+                    "[+25]% Production when constructing [Military] units [in all cities]",
+                ],
+                "requires": ["Military Training", "Regular Army"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Militarism Complete",
+                "uniques": [
+                    "[+25]% Strength <when attacking> <for [Military] units>",
+                    "New [Military] units start with [15] Experience [in all cities]"
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>",
+                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                ]
+            }
+        ]
+    },
+    //Pacifism - Завершено
+    {
+        "name": "Pacifism",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 30,
+            "Diplomatic": 50,
+            "Domination": 0,
+            "Scientific": 30
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]"
+            "[+25]% Great Person generation [in all cities]",
+            "Only available <before adopting [Militarism]>",
+        ],
+        "policies": [
+            {
+                "name": "United Front",//Объединённый Фронт
+                "uniques": ["Militaristic City-States grant units [4] times as fast when you are at war with a common nation"],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Cultural Diplomacy",//Культурная Дипломатия
+                "uniques": ["[-25]% City-State Influence degradation"],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Scholasticism",//Схоластика
+                "uniques": [
+                    "Allied City-States provide [Science] equal to [25]% of what they produce for themselves"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Educated Elite",//Образованная Элита
+                "uniques": ["Free Great Person"],
+                "requires": ["Scholasticism"],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Citizenship",//Гражданство
+                "uniques": [
+                    "[+33]% Strength for cities <when defending>"
+                ],
+                "requires": ["United Front"],
+                "row": 2,
+                "column": 5
+            },
+            {
+                "name": "Pacifism Complete",
+                "uniques": [
+                    "[+100]% Yield from every [Great Improvement]",
+                    "[+100]% resources gifted by City-States",
+                    "[+50]% Happiness from luxury resources gifted by City-States",
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                ]
+            }
+        ]
+    },
+]
