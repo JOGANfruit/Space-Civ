@@ -16,38 +16,91 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable"]
  },
+ ////////////////////////////////////////////////////////////
  {
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Writing",
+		"techRequired": "Agriculture",
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
-			"[+1 Food] from [Fresh water] tiles <after discovering [Economy]>",
-			"[+1 Food] from [non-fresh water] tiles <after discovering [Economy]>"],
+			"[+1 Food] from [Fresh water] tiles <after discovering [Fertilizer]>",
+	    ],
 		"shortcutKey": "F"
  },
  {
+   "name": "Mine",
+   "terrainsCanBeBuiltOn": ["Hill"],
+   "production": 1,
+   "turnsToBuild": 7,
+   "techRequired": "Mining",
+   "uniques": ["[+1 Production] <after discovering [Chemistry]>"],
+   "shortcutKey": "M"
+ },
+ // Resource-specific
+ {
 		"name": "Pasture",
 		"turnsToBuild": 8,
-		"techRequired": "Writing",
-		"uniques": ["[+1 Food] <after discovering [Economy]>", "Can only be built to improve a resource"],
+		"techRequired": "Animal Husbandry",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
 		"shortcutKey": "P"
 	},
   {
 		"name": "Plantation",
 		"turnsToBuild": 6,
 		"gold": 1,
-		"techRequired": "Writing",
-		"uniques": ["[+1 Food] <after discovering [Economy]>", "Can only be built to improve a resource"],
+		"techRequired": "Agriculture",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
 		"shortcutKey": "P"
 	},
   {
     "name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Ocean"],
 		"food": 1,
-		"techRequired": "Writing",
-		"uniques": ["[+1 Gold] <after discovering [Economy]>", "Can only be built to improve a resource"],
+		"techRequired": "Agriculture",
+		"uniques": ["[+1 Gold] <after discovering [Fertilizer]>", "Can only be built to improve a resource"],
 		"shortcutKey": "F"
-  }
+  },
+  {
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource"],
+		"shortcutKey": "Q"
+	},
+  {
+		"name": "Oil well",
+		"turnsToBuild": 9,
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles"],
+		"shortcutKey": "W"
+	},
+	{
+		"name": "Offshore Platform",
+		"techRequired": "Biology",
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles"],
+		"shortcutKey": "P"
+	},
+  // Removals
+  {
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"techRequired": "Iron Working",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+  {
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+
 ]

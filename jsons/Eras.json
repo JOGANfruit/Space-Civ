@@ -28,7 +28,7 @@
         "iconRGB": [60, 110, 240]
     },
 	{
-        "name": "Level 2",
+        "name": "Modern era",
         "researchAgreementCost": 200,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,

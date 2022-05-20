@@ -63,7 +63,7 @@
                 "name": "Industry Complete",
                 "uniques": [
                     "[Gold] cost of purchasing items in cities [-50]%"
-                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                    "May buy [Great Engineer] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Modern era]>"
                 ]
             }
         ]
@@ -266,7 +266,7 @@
                 "name": "Rationalism Complete",
                 "uniques": [
                     "[2] Free Technologies",
-                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                    "May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Modern era]>"
                 ]
             }
         ]
@@ -335,8 +335,8 @@
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units>",
                     "New [Military] units start with [15] Experience [in all cities]"
-                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>",
-                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                    "May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Modern era]>",
+                    "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Modern era]>"
                 ]
             }
         ]
@@ -400,7 +400,7 @@
                     "[+100]% Yield from every [Great Improvement]",
                     "[+100]% resources gifted by City-States",
                     "[+50]% Happiness from luxury resources gifted by City-States",
-                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Level 2]>"
+                    "May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Modern era]>"
                 ]
             }
         ]

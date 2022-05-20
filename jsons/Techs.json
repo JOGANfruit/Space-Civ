@@ -15,8 +15,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 18,
-		"buildingCost": 18,
+		"techCost": 20,
+		"buildingCost": 20,
 		"techs": [
 			{
 				"name": "Writing",
@@ -24,7 +24,12 @@
 				"prerequisites": ["Distant Past"]
 			},
 			{
-				"name": "Economy",
+				"name": "Animal Husbandry",
+				"row": 4,
+				"prerequisites": ["Distant Past"]
+			},
+			{
+				"name": "Agriculture",
 				"row": 5,
 				"prerequisites": ["Distant Past"]
 			},
@@ -39,7 +44,7 @@
 		"columnNumber": 2,
 		"era": "Ancient era",
 		"techCost": 30,
-		"buildingCost": 24,
+		"buildingCost": 30,
 		"techs": [
 			{
 				"name": "Education",
@@ -47,32 +52,22 @@
 				"prerequisites": ["Writing"],
 			},
 			{
-			"name": "Philosophy",
+			"name": "Drama and Poetry",
 			"row": 2,
 			"prerequisites": ["Writing"],
 	  	},
 			{
-				"name": "Theology",
+				"name": "Philosophy",
 				"row": 3,
 				"prerequisites": ["Writing"]
 			},
 			{
-				"name": "Agriculture",
-				"row": 4,
-				"prerequisites": ["Economy"]
-			},
-			{
-				"name": "Industrialization",
+				"name": "Currency",
 				"row": 5,
-				"prerequisites": ["Economy"]
+				"prerequisites": ["Agriculture", "Animal Husbandry"]
 			},
 			{
-				"name": "Trade",
-				"row": 6,
-				"prerequisites": ["Economy"]
-			},
-			{
-				"name": "Bronze Working",
+				"name": "Engineering",
 				"row": 7,
 				"prerequisites": ["Mining"]
 			},
@@ -80,6 +75,107 @@
 				"name": "Iron Working",
 				"row": 9,
 				"prerequisites": ["Mining"]
+			}
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Modern era",
+		"techCost": 50,
+		"buildingCost": 50,
+		"techs": [
+			{
+				"name": "Astronomy",
+				"row": 2,
+				"prerequisites": ["Education", "Philosophy", "Drama and Poetry"]
+			},
+			{
+				"name": "Industrialization",
+				"row": 5,
+				"prerequisites": ["Currency"]
+			},
+			{
+				"name": "Electricity",
+				"row": 4,
+				"prerequisites": ["Currency"]
+			},
+			{
+				"name": "Banking",
+				"row": 6,
+				"prerequisites": ["Currency"]
+			},
+			{
+				"name": "Chemistry",
+				"row": 8,
+				"prerequisites": ["Engineering", "Iron Working"]
+			}
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Modern era",
+		"techCost": 60,
+		"buildingCost": 60,
+		"techs": [
+			{
+				"name": "Atomic Theory",
+				"row": 1,
+			"uniques": ["Enables conversion of city production to science","Enables Research agreements"],
+				"prerequisites": ["Astronomy"],
+			},
+			{
+			"name": "Radio",
+			"row": 2,
+			"prerequisites": ["Astronomy"],
+	  	},
+			{
+				"name": "Theology",
+				"row": 3,
+				"prerequisites": ["Astronomy"]
+			},
+			{
+				"name": "Fertilizer",
+				"row": 8,
+				"prerequisites": ["Chemistry"]
+			},
+			{
+				"name": "Nuclear Fission",
+				"row": 5,
+				"prerequisites": ["Electricity", "Industrialization"]
+			},
+			{
+				"name": "Economics",
+				"row": 6,
+				"uniques": ["Enables conversion of city production to gold"],
+				"prerequisites": ["Banking"]
+			},
+			{
+				"name": "Biology",
+				"row": 4,
+				"prerequisites": ["Electricity"]
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Modern era",
+		"techCost": 70,
+		"buildingCost": 70,
+		"techs": [
+			{
+				"name": "Telecommunications",
+				"row": 2,
+				"prerequisites": ["Atomic Theory", "Radio", "Theology"]
+			},
+			{
+				"name": "Satellites",
+				"row": 5,
+				"prerequisites": ["Nuclear Fission", "Economics", "Biology"]
+			},
+			{
+				"name": "Robotics",
+				"row": 8,
+				"prerequisites": ["Fertilizer"]
 			}
 		]
 	},
