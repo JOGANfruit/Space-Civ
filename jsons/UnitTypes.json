@@ -1,0 +1,39 @@
+[
+  //Civilian
+  {
+     "name": "Civilian",
+     "movementType": "Land"
+  },
+  {
+     "name": "Civilian Water",
+     "movementType": "Water"
+  },
+  //Space Civilian
+  {
+     "name": "Space Civilian",
+     "movementType": "Land"
+     "uniques": ["Can pass through impassable tiles"]
+  },
+  //Land Military
+  {
+      "name": "Scout",
+      "movementType": "Land"
+  },
+  //Space Military
+  {
+      "name": "Space Ship",
+      "movementType": "Land"
+      "uniques": ["Can pass through impassable tiles"]
+  },
+  {
+    "name": "Laser",
+    "movementType": "Land"
+    "uniques": ["Can pass through impassable tiles"]
+  },
+  {
+    "name": "Ranged Laser",
+    "movementType": "Land"
+    "uniques": ["Can pass through impassable tiles"]
+  }
+
+]

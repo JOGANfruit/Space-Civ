@@ -223,4 +223,20 @@
 		"improvement": "Mine",
 		"uniques": []
 	},
+	//Политические ресурсы
+	{
+		"name": "Political Regime",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+	{
+		"name": "Form of Government",
+		"resourceType": "Strategic",
+		"culture": 1
+	},
+	{
+		"name": "Territorial Organisation",
+		"resourceType": "Strategic",
+		"culture": 1
+	}
 ]

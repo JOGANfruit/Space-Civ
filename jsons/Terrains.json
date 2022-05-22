@@ -1,19 +1,17 @@
 [
  {
 		"name": "Outer Space",
-		"type": "Water",
+		"type": "Land",
+    "impassable": true,
 		"movementCost": 1,
 		"RGB": [45,108,145]
 	},
   {
     "name": "Planetary Orbit",
-		"type": "Water",
-		"food": 1,
+		"type": "Land",
+    "impassable": true,
 		"movementCost": 1,
 		"RGB": [107,167,193],
-		"uniques": ["[+2] to Fertility for Map Generation",
-					"Considered [Desirable] when determining start locations <on water maps>",
-					"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
   },
   //Planet names
   {
@@ -46,13 +44,9 @@
     "name": "Star",
 		"type": "Land",
 		"impassable": true,
-		"defenceBonus": 0.25,
 		"RGB": [120, 120, 120],
 		"uniques": ["Rough terrain",
-					"Has an elevation of [4] for visibility calculations",
-					"Occurs in chains at high elevations",
-					"Units ending their turn on this terrain take [50] damage",
-					"Always Fertility [-2] for Map Generation",
+					"Units ending their turn on this terrain take [200] damage",
 					"Considered [Undesirable] when determining start locations"]
   },
   {

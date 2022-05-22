@@ -3,7 +3,7 @@
 		"columnNumber": 0,
 		"era": "Ancient era",
 		"techCost": 20,
-		"buildingCost": 40,
+		"buildingCost": 20,
 		"techs":[
 				{
 					"name": "Distant Past",
@@ -15,8 +15,8 @@
 	{
 		"columnNumber": 1,
 		"era": "Ancient era",
-		"techCost": 20,
-		"buildingCost": 20,
+		"techCost": 30,
+		"buildingCost": 30,
 		"techs": [
 			{
 				"name": "Writing",
@@ -34,8 +34,13 @@
 				"prerequisites": ["Distant Past"]
 			},
 			{
+				"name": "Statehood",
+				"row": 6,
+				"prerequisites": ["Distant Past"]
+			},
+			{
 				"name": "Mining",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Distant Past"]
 			}
 		]
@@ -43,8 +48,8 @@
 	{
 		"columnNumber": 2,
 		"era": "Ancient era",
-		"techCost": 30,
-		"buildingCost": 30,
+		"techCost": 50,
+		"buildingCost": 50,
 		"techs": [
 			{
 				"name": "Education",
@@ -64,16 +69,16 @@
 			{
 				"name": "Currency",
 				"row": 5,
-				"prerequisites": ["Agriculture", "Animal Husbandry"]
+				"prerequisites": ["Agriculture", "Animal Husbandry", "Statehood"]
 			},
 			{
 				"name": "Engineering",
-				"row": 7,
+				"row": 6,
 				"prerequisites": ["Mining"]
 			},
 			{
 				"name": "Iron Working",
-				"row": 9,
+				"row": 7,
 				"prerequisites": ["Mining"]
 			}
 		]
@@ -81,8 +86,8 @@
 	{
 		"columnNumber": 3,
 		"era": "Modern era",
-		"techCost": 50,
-		"buildingCost": 50,
+		"techCost": 70,
+		"buildingCost": 70,
 		"techs": [
 			{
 				"name": "Astronomy",
@@ -106,7 +111,7 @@
 			},
 			{
 				"name": "Chemistry",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Engineering", "Iron Working"]
 			}
 		]
@@ -114,8 +119,8 @@
 	{
 		"columnNumber": 4,
 		"era": "Modern era",
-		"techCost": 60,
-		"buildingCost": 60,
+		"techCost": 90,
+		"buildingCost": 90,
 		"techs": [
 			{
 				"name": "Atomic Theory",
@@ -135,7 +140,7 @@
 			},
 			{
 				"name": "Fertilizer",
-				"row": 8,
+				"row": 7,
 				"prerequisites": ["Chemistry"]
 			},
 			{
@@ -158,24 +163,105 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "Modern era",
-		"techCost": 70,
-		"buildingCost": 70,
+		"era": "New Colonial era",
+		"techCost": 150,
+		"buildingCost": 150,
 		"techs": [
 			{
-				"name": "Telecommunications",
+				"name": "Advanced Ballistics",
 				"row": 2,
 				"prerequisites": ["Atomic Theory", "Radio", "Theology"]
 			},
 			{
-				"name": "Satellites",
+				"name": "Nanotechnology",
 				"row": 5,
 				"prerequisites": ["Nuclear Fission", "Economics", "Biology"]
 			},
 			{
+				"name": "Military Science",
+				"row": 7,
+				"prerequisites": ["Fertilizer", "Economics"]
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "New Colonial era",
+		"techCost": 200,
+		"buildingCost": 200,
+		"techs": [
+			{
+				"name": "Space Tourism",
+				"row": 6,
+				"prerequisites": ["Nanotechnology"],
+			},
+			{
+			"name": "Geological Scanning",
+			"row": 2,
+			"prerequisites": ["Advanced Ballistics"],
+			},
+			{
 				"name": "Robotics",
-				"row": 8,
-				"prerequisites": ["Fertilizer"]
+				"row": 3,
+				"prerequisites": ["Advanced Ballistics"]
+			},
+			{
+				"name": "Xenobiology",
+				"row": 4,
+				"prerequisites": ["Nanotechnology"]
+			},
+			{
+				"name": "Maximized Exploitation",
+				"row": 5,
+				"prerequisites": ["Nanotechnology"]
+			},
+			{
+				"name": "Planetary Defense",
+				"row": 7,
+				"prerequisites": ["Military Science"]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "New Colonial era",
+		"techCost": 250,
+		"buildingCost": 250,
+		"techs": [
+			{
+				"name": "Navigation",
+				"row": 3,
+				"prerequisites": ["Robotics", "Geological Scanning"]
+			},
+			{
+				"name": "Xenobotanica",
+				"row": 4,
+				"prerequisites": ["Xenobiology"]
+			},
+			{
+				"name": "Xenoarchaeology",
+				"row": 1,
+				"prerequisites": ["Geological Scanning"]
+			},
+			{
+				"name": "Space Colonization",
+				"row": 2,
+				"prerequisites": ["Geological Scanning"]
+			},
+			{
+				"name": "Astrofinance",
+				"row": 6,
+				"prerequisites": ["Space Tourism"]
+			},
+			{
+				"name": "High-Tech Industry",
+				"row": 5,
+				"prerequisites": ["Maximized Exploitation"]
+			},
+			{
+				"name": "Lasers",
+				"row": 7,
+				"prerequisites": ["Planetary Defense"]
 			}
 		]
 	},

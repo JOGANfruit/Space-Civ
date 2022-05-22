@@ -9,6 +9,7 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit"
   },
+  //Civilian
   {
     "name": "Settler",
   	"unitType": "Civilian",
@@ -23,5 +24,54 @@
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles"],
 		"cost": 70
+  },
+  {
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Astronomy",
+		"uniques": ["May create improvements on water resources", "Uncapturable"]
+	},
+  //Space Civilian
+  {
+    "name": "Colonist",
+  	"unitType": "Space Civilian",
+  	"movement": 1,
+  	"cost": 400,
+    "requiredTech": "Space Colonization",
+  	"uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+  			"Requires at least [2] population"],
+  },
+  //Space Military
+  //New Colonial era
+  {
+    "name": "Space Shuttle",
+  	"unitType": "Space Ship",
+  	"movement": 2,
+    "strength": 10,
+  	"cost": 300,
+    "requiredTech": "Advanced Ballistics",
+  	"uniques": ["Never appears as a Barbarian unit"],
+  },
+  {
+		"name": "Heavy Lasgun",
+		"unitType": "Ranged Laser",
+		"range": 1,
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"cost": 500,
+		"requiredTech": "Lasers",
+		"attackSound": "machinegun"
+	},
+  {
+  	"name": "Lasgun",
+  	"unitType": "Laser",
+  	"movement": 2,
+  	"strength": 30,
+  	"cost": 500,
+  	"requiredTech": "Lasers",
+  	"attackSound": "machinegun"
   },
 ]

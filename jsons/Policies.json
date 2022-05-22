@@ -19,7 +19,7 @@
             {
                 "name": "Urbanism",//Урбанизм
                 "uniques": [
-                    "[+10]% Production when constructing [All] buildings [in all cities]",
+                    "[+5]% Production when constructing [All] buildings [in all cities]",
                 ],
                 "row": 1,
                 "column": 1
