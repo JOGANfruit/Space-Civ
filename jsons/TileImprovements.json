@@ -37,8 +37,34 @@
    "uniques": ["[+1 Production] <after discovering [Chemistry]>"],
    "shortcutKey": "M"
  },
- // Resource-specific
  {
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Iron Working",
+		"uniques": ["[+1 Science] <after discovering [Scientific Theory]>"],
+		"shortcutKey": "L"
+	},
+  //Neo-Feudal Opera
+  {
+    "name": "Manufaktorum",
+    "terrainsCanBeBuiltOn": ["Hill"],
+    "production": 2,
+    "turnsToBuild": 7,
+    "techRequired": "Neo-Industrialization",
+    "uniques": ["[+1 Food] <after discovering [High-Consumption Society]>"],
+  },
+  {
+ 		"name": "Tectonic Housing",
+ 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert"],
+ 		"food": 2,
+ 		"turnsToBuild": 7,
+ 		"techRequired": "Tectonic Engineering",
+ 		"uniques": ["[+1 Food] <after discovering [High-Consumption Society]>"],
+  },
+ // Resource-specific
+  {
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Animal Husbandry",

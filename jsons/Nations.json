@@ -4,9 +4,9 @@
 		"outerColor": [255,255,255]
   },
   {
- 		"name": "House Atreides",
- 		"leaderName": "Leto Atreides",
- 		"adjective": ["Atreides"],
+ 		"name": "Teasaria",
+ 		"leaderName": "Deu Teasaer",
+ 		"adjective": ["Teasarian"],
  		"startBias": ["Grassland"],
  		"preferredVictoryType":"Domination",
 
@@ -23,11 +23,11 @@
 
  		"tradeRequest": "",
 
- 		"outerColor": [255, 255, 255],
- 		"innerColor": [165,0,0],
+ 		"outerColor": [234,212,0],
+ 		"innerColor": [0,0,0],
  		"uniqueName": "Hellenic League",
  		"uniques": ["Cannot build [Settler] units"],
- 		"cities": ["Arrakeen"]
+ 		"cities": ["Teasaeratopol"]
  	},
   {
     "name": "House Harkonnen",

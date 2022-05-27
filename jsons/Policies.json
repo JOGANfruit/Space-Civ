@@ -33,7 +33,7 @@
                 "column": 3
             },
             {
-                "name": "Intensive Growth",//Интенсивный Рост
+                "name": "Intensive Growth",//�?нтенсивный Рост
                 "uniques": [
                     "[+2 Production] from every [Strategic resource]",
                 ],
@@ -51,7 +51,7 @@
                 "column": 2
             },
             {
-                "name": "Imperialism",//Империализм
+                "name": "Imperialism",//�?мпериализм
                 "uniques": [
                     "[+25]% Production towards any buildings that already exist in the Capital"
                 ],
@@ -114,8 +114,8 @@
               {
                   "name": "Forest Reserve",//Заповедный Лес
                   "uniques": [
-                      "[+3 Culture] from every [Forest]",
-                      "[+3 Culture] from every [Jungle]"
+                      "[+2 Culture] from every [Forest]",
+                      "[+2 Culture] from every [Jungle]"
                   ],
                   "requires": ["Nature Protection"],
                   "row": 2,

@@ -123,7 +123,7 @@
 		"buildingCost": 90,
 		"techs": [
 			{
-				"name": "Atomic Theory",
+				"name": "Scientific Theory",
 				"row": 1,
 			"uniques": ["Enables conversion of city production to science","Enables Research agreements"],
 				"prerequisites": ["Astronomy"],
@@ -163,14 +163,14 @@
 	},
 	{
 		"columnNumber": 5,
-		"era": "New Colonial era",
+		"era": "Neo-Colonial era",
 		"techCost": 150,
 		"buildingCost": 150,
 		"techs": [
 			{
 				"name": "Advanced Ballistics",
 				"row": 2,
-				"prerequisites": ["Atomic Theory", "Radio", "Theology"]
+				"prerequisites": ["Scientific Theory", "Radio", "Theology"]
 			},
 			{
 				"name": "Nanotechnology",
@@ -186,7 +186,7 @@
 	},
 	{
 		"columnNumber": 6,
-		"era": "New Colonial era",
+		"era": "Neo-Colonial era",
 		"techCost": 200,
 		"buildingCost": 200,
 		"techs": [
@@ -206,7 +206,7 @@
 				"prerequisites": ["Advanced Ballistics"]
 			},
 			{
-				"name": "Xenobiology",
+				"name": "Xenobotanica",
 				"row": 4,
 				"prerequisites": ["Nanotechnology"]
 			},
@@ -224,7 +224,7 @@
 	},
 	{
 		"columnNumber": 7,
-		"era": "New Colonial era",
+		"era": "Neo-Colonial era",
 		"techCost": 250,
 		"buildingCost": 250,
 		"techs": [
@@ -234,14 +234,9 @@
 				"prerequisites": ["Robotics", "Geological Scanning"]
 			},
 			{
-				"name": "Xenobotanica",
+				"name": "Xenobiology",
 				"row": 4,
 				"prerequisites": ["Xenobiology"]
-			},
-			{
-				"name": "Xenoarchaeology",
-				"row": 1,
-				"prerequisites": ["Geological Scanning"]
 			},
 			{
 				"name": "Space Colonization",
@@ -263,6 +258,110 @@
 				"row": 7,
 				"prerequisites": ["Planetary Defense"]
 			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Neo-Feudal era",
+		"techCost": 250,
+		"buildingCost": 250,
+		"techs": [
+			{
+				"name": "Warp Engine",
+				"row": 2,
+				"prerequisites": ["Space Colonization", "Navigation"]
+			},
+			{
+				"name": "Nuclear Fusion",
+				"row": 4,
+				"prerequisites": ["Xenobotanica", "High-Tech Industry"]
+			},
+			{
+				"name": "Energy Shield",
+				"row": 6,
+				"prerequisites": ["Astrofinance", "Lasers", "High-Tech Industry"]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Neo-Feudal era",
+		"techCost": 250,
+		"buildingCost": 250,
+		"techs": [
+			{
+				"name": "Extreme Metallurgy",
+				"row": 7,
+				"prerequisites": ["Energy Shield"]
+			},
+			{
+				"name": "Subsonic Ammunition",
+				"row": 6,
+				"prerequisites": ["Energy Shield"]
+			},
+			{
+				"name": "Galactic Trade",
+				"row": 5,
+				"prerequisites": ["Nuclear Fusion"]
+			},
+			{
+				"name": "Gravity Generator",
+				"row": 3,
+				"prerequisites": ["Warp Engine", "Nuclear Fusion"]
+			},
+			{
+				"name": "Galactic Network",
+				"row": 1,
+				"prerequisites": ["Warp Engine"]
+			},
+			{
+				"name": "Tectonic Engineering",
+				"row": 4,
+				"prerequisites": ["Nuclear Fusion"]
+			},
+		  {
+				"name": "Mental Training",
+				"row": 2,
+				"prerequisites": ["Warp Engine"]
+			},
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Neo-Feudal era",
+		"techCost": 250,
+		"buildingCost": 250,
+		"techs": [
+			{
+				"name": "Galactic Fleet",
+				"row": 3,
+				"prerequisites": ["Gravity Generator"]
+			},
+			{
+				"name": "Neo-Industrialization",
+				"row": 4,
+				"prerequisites": ["Tectonic Engineering"]
+			},
+			{
+				"name": "Xeno-Cavalry",
+				"row": 7,
+				"prerequisites": ["Extreme Metallurgy"]
+			},
+			{
+				"name": "Universal Undercarriage",
+				"row": 6,
+				"prerequisites": ["Subsonic Ammunition", "Galactic Trade"]
+			},
+			{
+				"name": "High-Consumption Society",
+				"row": 5,
+				"prerequisites": ["Galactic Trade"]
+			},
+			{
+				"name": "Galactic Delivery",
+				"row": 2,
+				"prerequisites": ["Galactic Network", "Mental Training"]
+			},
 		]
 	},
 ]

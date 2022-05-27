@@ -5,7 +5,7 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Drone",
+        "startingMilitaryUnit": "Warrior",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 0,
@@ -33,7 +33,7 @@
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 2,
-        "startingMilitaryUnit": "Drone",
+        "startingMilitaryUnit": "Warrior",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 12,
@@ -55,12 +55,12 @@
         "iconRGB": [255, 210, 0]
     },
 	{
-        "name": "New Colonial era",
+        "name": "Neo-Colonial era",
         "researchAgreementCost": 300,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Drone",
+        "startingMilitaryUnit": "Rifleman",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 17,
@@ -79,15 +79,15 @@
             "Religious": ["Provides [+2 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[19] turns"]
         },
-        "iconRGB": [0, 150, 0]
+        "iconRGB": [233, 31, 99]
     },
 	{
-        "name": "Level 4",
+        "name": "Neo-Feudal era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.jso
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Drone",
+        "startingMilitaryUnit": "Lasgun",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 23,
@@ -106,15 +106,15 @@
             "Religious": ["Provides [+2 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[19] turns"]
         },
-        "iconRGB": [220, 20, 60]
+        "iconRGB": [157, 39, 176]
     },
 	{
-        "name": "Level 5",
+        "name": "Space Empires era",
         "researchAgreementCost": 500,
         "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Drone",
+        "startingMilitaryUnit": "Plasmagun",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 26,
