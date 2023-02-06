@@ -1,0 +1,54 @@
+[
+  //Political resources
+  {
+		"name": "Influence of Industrialists",
+		"resourceType": "Strategic",
+		"revealedBy": "Economy and Trade",
+		"gold": 1
+	},
+  {
+		"name": "Influence of Ecologists",
+		"resourceType": "Strategic",
+		"revealedBy": "Economy and Trade",
+		"food": 1
+	},
+  {
+		"name": "Influence of Scientists",
+		"resourceType": "Strategic",
+		"revealedBy": "Science and Culture",
+		"science": 1
+	},
+  {
+		"name": "Influence of Religious",
+		"resourceType": "Strategic",
+		"revealedBy": "Science and Culture",
+		"faith": 1
+	},
+  {
+		"name": "Influence of Militarists",
+		"resourceType": "Strategic",
+		"revealedBy": "Military Science",
+		"production": 1
+	},
+  {
+		"name": "Influence of Pacifists",
+		"resourceType": "Strategic",
+		"revealedBy": "Military Science",
+		"culture": 1
+	},
+  {
+		"name": "Legislative Initiative",
+		"resourceType": "Strategic",
+		"revealedBy": "Interplanetary Bureaucracy",
+		"culture": 1
+	},
+  //Strategic resources
+  {
+		"name": "Titanium",
+		"resourceType": "Strategic",
+		"revealedBy": "Advanced Mining",
+		"terrainsCanBeFoundOn": ["Earth-Type Planet","Steppe Planet","Arid Planet","Desert Planet","Ash Planet","Lava Planet","Tundra Planet"],
+		"science": 1,
+		"improvement": "Mining Company",
+ },
+]

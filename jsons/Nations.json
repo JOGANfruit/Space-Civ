@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Spectator",
+		"outerColor": [255,255,255]
+  },
+  {
+ 		"name": "Empire",
+ 		"leaderName": "Emperor",
+ 		"adjective": ["Imperial"],
+ 		"startBias": ["Avoid [Gas Planet]"],
+ 		"preferredVictoryType":"Domination",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [0, 0, 0],
+ 		"innerColor": [240,202,0],
+ 		"uniqueName": "In the Name of the Emperor!",
+ 		"uniques": ["Cannot build [Settler] units"],
+ 		"cities": ["Imperiopolis"]
+ 	},
+  {
+    "name": "Swarm",
+ 		"leaderName": "Queen of the Swarm",
+ 		"adjective": ["Monstrous"],
+ 		"startBias": ["Avoid [Gas Planet]"],
+ 		"preferredVictoryType":"Domination",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [255,0,15],
+ 		"innerColor": [0, 0, 0],
+ 		"uniqueName": "Hive Mind",
+ 		"uniques": ["Cannot build [Settler] units"],
+ 		"cities": ["Hive"]
+  },
+  {
+    "name": "Xeno-League",
+ 		"leaderName": "Chief",
+ 		"adjective": ["Xenous"],
+ 		"startBias": ["Avoid [Gas Planet]"],
+ 		"preferredVictoryType":"Domination",
+
+ 		"startIntroPart1": "",
+ 		"startIntroPart2": "",
+
+ 		"declaringWar": "",
+ 		"attacked": "",
+ 		"defeated": "",
+ 		"introduction": "",
+
+ 		"neutralHello": "",
+ 		"hateHello": "",
+
+ 		"tradeRequest": "",
+
+ 		"outerColor": [78,166,0],
+ 		"innerColor": [255,231,0],
+ 		"uniqueName": "Xeno-Solidarity",
+ 		"uniques": ["Cannot build [Settler] units"],
+ 		"cities": ["Corrino's Court"]
+  },
+  {
+    "name": "Barbarians",
+    "outerColor": [0,0,0],
+    "innerColor": [182,0,0],
+    "uniques": ["Can only heal by pillaging"]
+  }
+
+]

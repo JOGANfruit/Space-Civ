@@ -1,0 +1,23 @@
+[
+  {
+		"name": "Kinetic Weapon I",
+		"uniques": ["[+33]% Strength <vs [Light Ship] units>"],
+		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+        "column": 1,
+        "row": 1
+  },
+  {
+  	"name": "Kinetic Weapon II",
+  	"uniques": ["[+33]% Strength <vs [Light Ship] units>"],
+  	"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+        "column": 2,
+        "row": 1
+  },
+  {
+    "name": "Kinetic Weapon III",
+    "uniques": ["[+33]% Strength <vs [Light Ship] units>"],
+    "unitTypes": ["Light Ship","Medium Ship","Heavy Ship"],
+        "column": 3,
+        "row": 1
+  },
+]

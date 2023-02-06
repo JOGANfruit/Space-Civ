@@ -1,0 +1,85 @@
+[
+//Civilian
+{
+  "name": "Colonizer",
+  "unitType": "Civilian",
+  "movement": 2,
+  "cost": 106,
+  "uniques": ["Founds a new city", "Excess Food converted to Production when under construction",
+      "Requires at least [2] population"],
+},
+//Space Military
+{
+  "name": "Explorer",
+  "unitType": "Light Ship",
+  "movement": 3,
+  "strength": 5,
+  "rangedStrength": 5,
+  "cost": 40,
+  "requiredTech": "Military Science",
+  "attackSound": "nonmetalhit",
+},
+{
+		"name": "Corvette",
+		"unitType": "Light Ship",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 10,
+		"cost": 60,
+		"requiredTech": "Orbital Construction",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+	},
+//Land Military
+{
+  "name": "Armored Division",
+  "unitType": "Armored Division",
+  "movement": 1,
+  "strength": 10,
+  "cost": 40,
+  "uniques": [
+    "[+100]% Strength <vs [Infantry Division] units>"
+    "[+100]% Strength <vs [Anti-Ship Gun] units>"],
+  "requiredTech": "Invasion",
+  "attackSound": "nonmetalhit",
+},
+{
+  "name": "Infantry Division",
+  "unitType": "Infantry Division",
+  "movement": 1,
+  "strength": 10,
+  "cost": 40,
+  "uniques": [
+    "[+100]% Strength <vs [Assault Squadron] units>",
+    "[+100]% Strength <vs [Anti-Ship Gun] units>"],
+  "requiredTech": "Invasion",
+  "attackSound": "nonmetalhit",
+},
+{
+  "name": "Assault Squadron",
+  "unitType": "Assault Squadron",
+  "movement": 1,
+  "strength": 10,
+  "cost": 40,
+  "uniques": [
+    "[+100]% Strength <vs [Armored Division] units>",
+    "[+100]% Strength <vs [Anti-Ship Gun] units>"],
+  "requiredTech": "Invasion",
+  "attackSound": "nonmetalhit",
+},
+{
+  "name": "Anti-Ship Gun",
+  "unitType": "Anti-Ship Gun",
+  "movement": 1,
+  "strength": 10,
+  "cost": 40,
+  "uniques": [
+    "Cannot enter ocean tiles",
+    "[+100]% Strength <vs [Light Ship] units>",
+    "[+75]% Strength <vs [Medium Ship] units>",
+    "[+50]% Strength <vs [Heavy Ship] units>"
+],
+  "requiredTech": "Planetary Defense",
+  "attackSound": "nonmetalhit",
+},
+]

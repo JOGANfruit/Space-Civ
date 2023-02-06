@@ -1,0 +1,48 @@
+[
+  //Civilian
+  {
+     "name": "Civilian",
+     "movementType": "Land"
+  },
+  {
+     "name": "Civilian Water",
+     "movementType": "Water"
+  },
+  //Space Civilian
+  {
+     "name": "Space Civilian",
+     "movementType": "Land"
+     "uniques": ["Can pass through impassable tiles"]
+  },
+  //Land Military
+  {
+      "name": "Armored Division",
+      "movementType": "Land"
+  },
+  {
+      "name": "Infantry Division",
+      "movementType": "Land"
+  },
+  {
+     "name": "Assault Squadron",
+     "movementType": "Land"
+  },
+  {
+     "name": "Anti-Ship Gun",
+     "movementType": "Land"
+  },
+  //Space Military
+  {
+      "name": "Light Ship",
+      "movementType": "Water"
+  },
+  {
+      "name": "Medium Ship",
+      "movementType": "Water"
+  },
+  {
+      "name": "Heavy Ship",
+      "movementType": "Water"
+  },
+
+]

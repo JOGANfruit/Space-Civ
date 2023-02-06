@@ -1,0 +1,190 @@
+[
+{
+   "name": "Palace",
+   "isNationalWonder": true,
+   "production": 3,
+   "science": 3,
+   "gold": 3,
+   "culture": 1,
+   "cityStrength": 2,
+   "cost": 1,
+   "uniques": ["Indicates the capital city",
+   "Provides [3] [Influence of Industrialists]",
+   "Provides [3] [Influence of Ecologists]",
+   "Provides [3] [Influence of Scientists]",
+   "Provides [3] [Influence of Religious]",
+   "Provides [3] [Influence of Militarists]",
+   "Provides [3] [Influence of Pacifists]"]
+},
+//Level one
+{
+		"name": "Arsenal",
+		"cost": 300,
+		"cityStrength": 10,
+		"cityHealth": 25,
+		"cost": 60,
+    "requiredResource": "Influence of Pacifists",
+		"requiredTech": "Planetary Defense",
+		"uniques": ["Destroyed when the city is captured",
+    "Provides [1] [Influence of Militarists]"]
+	},
+  {
+		"name": "Orbital Shipyards",
+	  "cost": 60,
+		"maintenance": 1,
+    "requiredResource": "Influence of Pacifists",
+		"uniques": ["New [Light Ship] units start with [15] Experience [in this city]",
+    "Provides [1] [Influence of Militarists]",
+    "Destroyed when the city is captured"],
+		"requiredTech": "Orbital Construction"
+	},
+  {
+		"name": "Farming",
+		"food": 2,
+		"maintenance": 1,
+		"cost": 60,
+    "requiredResource": "Influence of Industrialists",
+		"uniques": ["Provides [1] [Influence of Ecologists]"],
+		"requiredTech": "Xenoagriculture"
+	},
+  {
+		"name": "Stock Exchange",
+		"gold": 3,
+		"cost": 60,
+    "requiredResource": "Influence of Militarists",
+    "uniques": ["Provides [1] [Influence of Pacifists]"],
+		"requiredTech": "Globalization"
+	},
+  {
+		"name": "Mining",
+		"production": 2,
+		"maintenance": 1,
+		"cost": 60,
+    "requiredResource": "Influence of Ecologists",
+		"uniques": ["Provides [1] [Influence of Industrialists]"],
+		"requiredTech": "Advanced Mining"
+	},
+  {
+		"name": "Social Protection",
+		"food": 2,
+    "gold": 2,
+		"maintenance": 1,
+		"cost": 40,
+		"requiredTech": "Economy and Trade"
+	},
+  {
+		"name": "Broadcasting",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"],
+    "requiredTech": "Science and Culture"
+	},
+  {
+		"name": "Regular Preaching",
+		"faith": 1,
+		"cost": 60,
+		"maintenance": 1,
+    "requiredResource": "Influence of Scientists",
+		"requiredTech": "World Religion",
+		"uniques": [
+    "Provides [1] [Influence of Religious]",
+    "Hidden when religion is disabled"]
+	},
+  {
+		"name": "Sustainable Crops",
+    "food": 1,
+		"cost": 60,
+		"maintenance": 2,
+    "requiredResource": "Influence of Religious",
+		"uniques": [
+    "[+1 Science] per [2] population [in this city]",
+    "Provides [1] [Influence of Scientists]",
+    "Provides [1] [Influence of Ecologists]"],
+		"requiredTech": "Xenobiology"
+	},
+  //Politics
+  {
+		"name": "Local Government",
+		"cost": 120,
+		"happiness": 1,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": [
+    "Requires a [Broadcasting] in all cities",
+    "Cost increases by [30] per owned city",
+    "Provides [2] [Legislative Initiative]"],
+		"requiredTech": "Interplanetary Bureaucracy"
+	},
+  {
+		"name": "Military Conscription",
+		"cost": 120,
+		"happiness": -10,
+		"isNationalWonder": true,
+    "requiredResource": "Legislative Initiative",
+		"uniques": [
+    "Provides [1] [Influence of Militarists]",
+    "New [Military] units start with [15] Experience [in all cities]"],
+		"requiredTech": "Invasion"
+	},
+  {
+		"name": "Extended Working Day",
+		"cost": 120,
+		"happiness": -4,
+		"isNationalWonder": true,
+    "requiredResource": "Legislative Initiative",
+		"uniques": [
+    "Provides [1] [Influence of Industrialists]",
+    "[+1 Production] from every specialist [in all cities]"],
+		"requiredTech": "Advanced Mining"
+	},
+  {
+		"name": "Super Tax",
+		"cost": 120,
+		"gold": 10
+		"isNationalWonder": true,
+    "requiredResource": "Legislative Initiative",
+		"uniques": [
+    "Provides [1] [Influence of Industrialists]",
+    "[+10]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Globalization"
+	},
+  {
+		"name": "Decree on Land",
+		"cost": 120,
+		"production": -5,
+    "gold": -5,
+		"isNationalWonder": true,
+    "requiredResource": "Legislative Initiative",
+		"uniques": [
+    "Provides [1] [Influence of Ecologists]",
+    "[25]% Food is carried over after population increases [in all cities]"],
+		"requiredTech": "Xenoagriculture"
+	},
+  {
+		"name": "Compulsory Education",
+		"cost": 120,
+		"science": 5,
+    "gold": -5,
+		"isNationalWonder": true,
+    "requiredResource": "Legislative Initiative",
+		"uniques": [
+    "Provides [1] [Influence of Scientists]",
+    "[+1 Science] from every specialist [in all cities]"],
+		"requiredTech": "Xenobiology"
+	},
+  {
+		"name": "Religious Education",
+		"cost": 120,
+		"faith": 5,
+    "science": -5,
+		"isNationalWonder": true,
+    "requiredResource": "Legislative Initiative",
+		"uniques": [
+    "Provides [1] [Influence of Religious]"],
+		"requiredTech": "World Religion"
+	},
+
+
+]

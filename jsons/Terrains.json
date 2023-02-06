@@ -1,0 +1,130 @@
+[
+  //Space
+  {
+ 		"name": "Ocean",
+ 		"type": "Water",
+ 		"movementCost": 1,
+ 		"RGB": [110,0,123]
+ 	},
+  {
+ 		"name": "Coast",
+ 		"type": "Water",
+ 		"movementCost": 1,
+ 		"RGB": [157,0,139]
+ 	},
+  //Stars
+  {
+		"name": "Star",
+		"type": "Land",
+		"impassable": true,
+    "science": 5,
+		"defenceBonus": 0.25,
+		"RGB": [226,0,0],
+	},
+  //Planets
+  {
+		"name": "Oceanic Planet",
+		"type": "Land",
+		"food": 3,
+    "science": 1,
+		"movementCost": 1,
+		"RGB": [0,22,224]
+	},
+  {
+		"name": "Tropical Planet",
+		"type": "Land",
+		"food": 3,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [0,142,0]
+	},
+  {
+		"name": "Earth-Type Planet",
+		"type": "Land",
+		"food": 2,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [0,181,0]
+	},
+  {
+		"name": "Steppe Planet",
+		"type": "Land",
+		"food": 2,
+    "gold": 1,
+		"movementCost": 1,
+		"RGB": [116,185,0]
+	},
+  {
+		"name": "Arid Planet",
+		"type": "Land",
+    "production": 1,
+    "gold": 2,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+	},
+  {
+		"name": "Desert Planet",
+		"type": "Land",
+		"gold": 3,
+		"movementCost": 1,
+		"RGB": [255,205,152]
+	},
+  {
+		"name": "Tundra Planet",
+		"type": "Land",
+		"food": 1,
+    "production": 2,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+	},
+  {
+		"name": "Arctic Planet",
+		"type": "Land",
+		"food": 1,
+    "science": 2,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+	},
+  {
+		"name": "Ice Planet",
+		"type": "Land",
+    "science": 3,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+	},
+  {
+		"name": "Ash Planet",
+		"type": "Land",
+    "gold": 1,
+    "production": 2,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+    "uniques": [
+            "Considered [Undesirable] when determining start locations"]
+	},
+  {
+		"name": "Lava Planet"
+		"type": "Land",
+    "production": 3,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+    "uniques": [
+            "Considered [Undesirable] when determining start locations"]
+	},
+  {
+		"name": "Gas Planet",
+		"type": "Land",
+    "production": 1,
+		"movementCost": 1,
+		"RGB": [45,108,145],
+    "uniques": [
+            "Considered [Undesirable] when determining start locations"]
+	},
+  {
+		"name": "Moon",
+		"type": "Land",
+    "impassable": true,
+		"movementCost": 1,
+		"RGB": [45,108,145]
+	},
+]

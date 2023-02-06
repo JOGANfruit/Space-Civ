@@ -1,0 +1,92 @@
+[
+{
+  "columnNumber": 0,
+  "era": "Ancient era",
+  "techCost": 50,
+  "buildingCost": 50,
+  "techs":[
+      {
+        "name": "Military Science",
+        "row": 2,
+        "uniques": ["Starting tech", "Enables embarkation for land units"]
+      },
+      {
+        "name": "Economy and Trade",
+        "row": 5,
+        "uniques": ["Starting tech", "Enables [Embarked] units to enter ocean tiles"]
+      },
+      {
+        "name": "Science and Culture",
+        "row": 8,
+        "uniques": ["Starting tech"]
+      },
+   ]
+},
+{
+  "columnNumber": 1,
+  "era": "Ancient era",
+  "techCost": 100,
+  "buildingCost": 100,
+  "techs":[
+      {
+        "name": "Planetary Defense",
+        "row": 1,
+        "prerequisites": ["Military Science"],
+      },
+      {
+        "name": "Invasion",
+        "row": 2,
+        "prerequisites": ["Military Science"],
+      },
+      {
+        "name": "Orbital Construction",
+        "row": 3,
+        "prerequisites": ["Military Science"],
+      }
+      {
+        "name": "Advanced Mining",
+        "row": 4,
+        "prerequisites": ["Economy and Trade"],
+      },
+      {
+        "name": "Globalization",
+        "row": 5,
+        "prerequisites": ["Economy and Trade"],
+      },
+      {
+        "name": "Xenoagriculture",
+        "row": 6,
+        "prerequisites": ["Economy and Trade"],
+      },
+      {
+        "name": "Xenobiology",
+        "row": 7,
+        "uniques": ["[+1 Food] from every [Tundra Planet]"],
+        "prerequisites": ["Science and Culture"],
+      },
+      {
+        "name": "Interplanetary Bureaucracy",
+        "row": 8,
+        "prerequisites": ["Science and Culture"],
+      },
+      {
+        "name": "World Religion",
+        "row": 9,
+        "prerequisites": ["Science and Culture"],
+      }
+   ]
+},
+{
+  "columnNumber": 2,
+  "era": "Level 2",
+  "techCost": 150,
+  "buildingCost": 150,
+  "techs":[
+      {
+        "name": "Nuclear Fusion",
+        "row": 3,
+        "prerequisites": ["Orbital Construction", "Advanced Mining"]
+      },
+   ]
+},
+]

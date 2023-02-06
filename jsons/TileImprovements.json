@@ -1,0 +1,32 @@
+[
+{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable"]
+},
+{
+		"name": "Barbarian encampment",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Unbuildable"]
+},
+////////////////////////////////////////////////////////////////
+
+{
+		"name": "Agricultural Specialization",
+		"terrainsCanBeBuiltOn": ["Tropical Planet", "Earth-Type Planet", "Steppe Planet", "Arid Planet", "Desert Planet", "Tundra Planet", "Arctic Planet"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Xenoagriculture",
+		"uniques": [
+    "Pillaging this improvement yields approximately [+20 Gold]"],
+	},
+	{
+			"name": "Mining Company",
+			"terrainsCanBeBuiltOn": ["Earth-Type Planet", "Steppe Planet", "Arid Planet", "Desert Planet", "Ash Planet", "Lava Planet", "Tundra Planet"],
+			"production": 1,
+			"turnsToBuild": 7,
+			"techRequired": "Advanced Mining",
+			"uniques": [
+	    "Pillaging this improvement yields approximately [+20 Gold]"],
+		},
+]
